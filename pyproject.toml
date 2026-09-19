@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fitcheck"
+version = "0.1.0"
+description = "KV-cache-aware LLM deployment planner: will this model fit on your GPU(s) at this context length?"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = ["llm", "vram", "kv-cache", "deployment", "vllm", "llama.cpp"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+fitcheck = "fitcheck.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/SIDDARTHAREDDY8/fitcheck"
+Repository = "https://github.com/SIDDARTHAREDDY8/fitcheck.git"
+
+[tool.setuptools.packages.find]
+include = ["fitcheck*"]
+
+[tool.setuptools.package-data]
+fitcheck = ["presets/*.json"]
