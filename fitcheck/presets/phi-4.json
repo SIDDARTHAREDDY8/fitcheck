@@ -1,0 +1,14 @@
+{
+  "name": "phi-4",
+  "description": "Microsoft Phi-4 14B (GQA, 10 kv heads)",
+  "attention": "standard",
+  "layers": 40,
+  "attention_heads": 40,
+  "kv_heads": 10,
+  "hidden_size": 5120,
+  "head_dim": 128,
+  "weight_dtype": "bf16",
+  "params": 14700196864,
+  "sliding_window": null,
+  "global_layers": 0
+}
