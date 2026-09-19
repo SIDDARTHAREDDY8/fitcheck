@@ -1,0 +1,14 @@
+{
+  "name": "mistral-7b-v0.3",
+  "description": "Mistral 7B v0.3 (GQA, no sliding window; 32K context)",
+  "attention": "standard",
+  "layers": 32,
+  "attention_heads": 32,
+  "kv_heads": 8,
+  "hidden_size": 4096,
+  "head_dim": 128,
+  "weight_dtype": "bf16",
+  "params": 7248021760,
+  "sliding_window": null,
+  "global_layers": 0
+}
