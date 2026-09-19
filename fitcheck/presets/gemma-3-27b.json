@@ -1,0 +1,14 @@
+{
+  "name": "gemma-3-27b",
+  "description": "Gemma 3 27B (GQA, 1K sliding window on 52/62 layers, 10 global layers)",
+  "attention": "standard",
+  "layers": 62,
+  "attention_heads": 32,
+  "kv_heads": 16,
+  "hidden_size": 5376,
+  "head_dim": 168,
+  "weight_dtype": "bf16",
+  "params": 27381580800,
+  "sliding_window": 1024,
+  "global_layers": 10
+}
