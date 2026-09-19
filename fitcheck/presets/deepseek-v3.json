@@ -1,0 +1,14 @@
+{
+  "name": "deepseek-v3",
+  "description": "DeepSeek V3 671B MoE (MLA absorbed KV: kv_lora_rank=512, qk_rope_head_dim=64)",
+  "attention": "mla",
+  "layers": 61,
+  "hidden_size": 7168,
+  "kv_lora_rank": 512,
+  "qk_rope_head_dim": 64,
+  "qk_nope_head_dim": 128,
+  "weight_dtype": "bf16",
+  "params": 671026531072,
+  "sliding_window": null,
+  "global_layers": 0
+}
