@@ -1,0 +1,14 @@
+{
+  "name": "qwen3-32b",
+  "description": "Qwen3 32B dense (GQA, 8 kv heads)",
+  "attention": "standard",
+  "layers": 64,
+  "attention_heads": 64,
+  "kv_heads": 8,
+  "hidden_size": 5120,
+  "head_dim": 128,
+  "weight_dtype": "bf16",
+  "params": 32501262336,
+  "sliding_window": null,
+  "global_layers": 0
+}
