@@ -1,0 +1,14 @@
+{
+  "name": "llama-3.3-70b",
+  "description": "Meta Llama 3.3 70B (GQA, 8 kv heads)",
+  "attention": "standard",
+  "layers": 80,
+  "attention_heads": 64,
+  "kv_heads": 8,
+  "hidden_size": 8192,
+  "head_dim": 128,
+  "weight_dtype": "bf16",
+  "params": 70553706496,
+  "sliding_window": null,
+  "global_layers": 0
+}
